@@ -1,0 +1,183 @@
+html{
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  
+}
+.form {
+  position: relative;
+}
+
+.form .search_bar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+  opacity: 1;
+}
+.nav-icons{
+  
+  opacity: 1;
+}
+.form-input1 {
+  height: 55px;
+  width: 750px;
+  text-indent: 33px;
+  border-radius: 10px;
+  background: #efefef;
+}
+.d-flex{
+  justify-content: center;
+}
+.nav_right{  
+  position: relative ;
+  left: 590px;
+}
+.nav_side{
+  display: block;
+  margin-top: -33px;
+  left: 0;
+  width: 200px;
+  /* max-height: 1000px; */
+  height: 100%;
+  /* background-color: #beb9b9 ; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+}
+/* input  {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+} */
+
+.nav_side li:hover{
+  background-color: rgb(224, 199, 115);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+  visibility: initial;
+  display: block;
+}
+.nav_side li .label{
+  font-size: 15px;
+  width: 70px;
+  padding: 20px; 
+   
+}
+
+.nav_side:hover{
+  display:block;
+  /* max-height: 800px; */
+  width: 200px; 
+  background-color: #beb9b9 ;   
+}
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+n-menu li .label{
+  font-size: 25px;
+  width: 70px;
+  padding: 20px; 
+}
+label{
+  /* margin-left: 30px; */
+  /* font-family: Arial !important; */
+  position: relative;
+  display: inline-block;  
+  /* margin-left: 100px; */
+}
+.container{
+  position: absolute;
+  top: 100px;
+  left: 350px;  
+}
+.note span {
+  position: absolute;
+  padding: 2px; 
+    
+}
+
+.noteButton{
+  position: absolute ;
+  padding-left: 400px;
+  
+}
+
+.form-input {
+  
+  height: 55px;   
+  width: 550px;
+  text-indent: 33px;
+  border-radius: 15px
+  
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none
+  
+}
+.form-input2 {
+  
+  min-height: 150px;
+  /* width: 550px; */
+  border-radius: 15px;
+ 
+}
+.container-f{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+.noteOption{
+  position: relative ;
+  
+  bottom: 0px;
+  padding-left: 10px;
+}
+
+#remindMe{
+  right: 480px;
+
+}
+#collaborator{
+  right: 440px;
+}
+#background{
+  right: 400px;
+  
+}
+#addImage{
+  right: 360px;
+}
+#archive{
+  right: 310px;
+}
+#addNote{
+  right: 0px; 
+}
+#deleteBtn{
+  right: 0px;
+}
+
+/* .container-y{
+  position: relative;
+  display: flex;
+  flex-direction:row;
+}  */
+
+

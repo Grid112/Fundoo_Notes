@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/registration/css/register.css">
+
+  <title>Fundoo</title>
+</head>
+
+<body>
+  <section class="vh-100 bg-image" style="background-image: url('/registration/assets/samurai-autumn-thumb.jpg');">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div class="card" style="border-radius: 15px; ">
+              <div class="card-body p-5">
+                <h2 class="text-uppercase text-center mb-5" style="color: chartreuse;">Registration Form</h2>
+
+                <form id="Registration">
+
+                  <div class="form-group mt-3">
+                    <label class="form-label">first_name</label>
+                    <input type="text" id="first_name" class="form-control first_name-field "
+                      placeholder="Enter First Name" />
+                    <span class="errormessage" id="errorfirst_name" style="display: none;">Please provide the valid
+                      first name</span>
+                  </div>
+
+                  <div class="form-group mt-3">
+                    <label class="form-label">last_name</label>
+                    <input type="text" id="last_name" class="form-control last_name-field "
+                      placeholder="Enter Last Name" />
+                    <span class="errormessage" id="errorlast_name" style="display: none;">Please provide the valid last
+                      name</span>
+                  </div>
+
+                  <div class="form-group mt-3">
+                    <label class="form-label">email</label>
+                    <input type="text" id="email" class="form-control email-field " placeholder="name@example.com" />
+                    <span class="errormessage" id="erroremail" style="display: none;">Please provide the valid
+                      email</span>
+                  </div>
+
+                  <div class="form-group mt-3">
+                    <label class="form-label">password</label>
+                    <input type="password" id="password" class="form-control password-field "
+                      placeholder="Enter Password" />
+                    <span class="errormessage" id="errorpassword" style="display: none;">Please provide the valid
+                      password</span>
+                  </div>
+
+                  <div class="container text-center mt-4">
+                    <button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" type="submit"
+                      id="submitform" name="submitform">Register</button>
+                  </div>
+
+                  <p class="container text-center mt-4">Have already an account? <a href="/login/pages/login.html"
+                      class="fw-bold text-body"><u>Login here</u></a></p>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script> -->
+  <script src="/registration/js/jquery-3.6.0.min.js"></script>
+  <script src="/registration/js/register_validate.js"></script>
+</body>
+
+</html>
