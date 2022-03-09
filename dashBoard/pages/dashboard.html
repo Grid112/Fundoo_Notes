@@ -87,7 +87,7 @@
     <!-- Take Note Container -->
     <div>
         <div class="note container">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" >
                 <div class="col-md-6">
                     <div id="takeNote" onclick="noteBlock()" class="note"><input type="text"
                             class="form-control form-input" placeholder="Take a Note...">
@@ -97,10 +97,8 @@
                             <div class="container-f">
 
                                 <input type="text" id="addTitle" placeholder="Title" style="border: 0px solid;"><br>
-                                <input type="text" id="addNote" placeholder="Take a note..."
+                                <input type="text" id="addContent" placeholder="Take a note..."
                                     style="border: 0px solid;"><br>
-
-
                                 <div class="noteOption">
                                     <span type="span" id="remindMe">
                                         <img src="/dashBoard/assets/bell_Icon.png" height="15" alt="RemindMe_Icon">
@@ -121,8 +119,8 @@
                                     </span>
                                     <span type="span" id="addNote">
                                         <button id="addBtn" class="btn btn-outline-primary btn-sm">Add</button>
+                                        <button id="editBtn" class="btn btn-outline-warning btn-sm" style="display:none;">Edit</button>
                                     </span>
-
                                 </div>
                             </div>
                         </div>

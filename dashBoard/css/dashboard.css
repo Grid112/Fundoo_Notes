@@ -48,7 +48,7 @@ body {
   border-bottom-right-radius: 15px;
   overflow-x: hidden;
   overflow-y: hidden;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   
 }
 /* input  {
@@ -131,7 +131,9 @@ label{
   
 }
 .form-input2 {
-  
+
+  position: relative;
+  /* top: 200px; */
   min-height: 150px;
   /* width: 550px; */
   border-radius: 15px;
@@ -179,5 +181,11 @@ label{
   display: flex;
   flex-direction:row;
 }  */
+#danger{
+  position: absolute;
+  top: 300px;
+  display:inline-block;
+  
+}
 
 
